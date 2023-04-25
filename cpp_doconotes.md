@@ -111,7 +111,6 @@ int main()
 }
 ```
 ```
-**output**
 Hello World!
 ```
 In between the line number 107 to 117 shows the C++ code for this program. and the line number 119 and 120 shows the result when the program is executed by a computer.The line number 109 are line numbers to make discussing programs and researching errors easier. That is not the part of the program.
@@ -176,7 +175,7 @@ int main ()
 }
  ```
 ```
- **output**=Hello world! I'm a C++ program
+Hello world! I'm a C++ program
 ```
 
 In this case, the program performed two insertions into std::cout in two different statements. Once again, the separation in different lines of code simply gives greater readability to the program, since main could have been perfectly valid defined in this way:
@@ -226,7 +225,7 @@ Hello World! I'm a C++ program
 
 ```
 ```
-**output**=Hello World! I'm a C++ program
+Hello World! I'm a C++ program
 ```
 If comments are included within the source code of a program without using the comment characters combinations //, /* or */, the compiler takes them as if they were C++ expressions, most likely causing the compilation to fail with one, or several, error messages.
 
@@ -258,7 +257,7 @@ int main ()
 }
 ```
 ```
-**outout**=Hello World! I'm a C++ program
+Hello World! I'm a C++ program
 ```
 Both ways of accessing the elements of the std namespace (explicit qualification and **using** declarations) are valid in C++ and produce the exact same behavior. For simplicity, and to improve readability, the examples in these tutorials will more often use this latter approach with **using**declarations, although note that **explicit qualification** is the only way to guarantee that name collisions never happen.
 
